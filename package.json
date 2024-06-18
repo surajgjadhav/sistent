@@ -26,7 +26,9 @@
     "test": "jest",
     "versionup:major": "npm version major",
     "versionup:minor": "npm version minor",
-    "versionup:patch": "npm version patch"
+    "versionup:patch": "npm version patch",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "lint-staged": {
     "*.{ts,tsx,md}": [
@@ -40,10 +42,19 @@
     }
   },
   "devDependencies": {
+    "@chromatic-com/storybook": "^1.5.0",
     "@commitlint/cli": "^17.7.2",
     "@commitlint/config-conventional": "^17.7.0",
     "@mui/icons-material": "^5.15.11",
     "@reduxjs/toolkit": "^2.2.5",
+    "@storybook/addon-essentials": "^8.1.10",
+    "@storybook/addon-interactions": "^8.1.10",
+    "@storybook/addon-links": "^8.1.10",
+    "@storybook/addon-onboarding": "^8.1.10",
+    "@storybook/blocks": "^8.1.10",
+    "@storybook/react": "^8.1.10",
+    "@storybook/react-vite": "^8.1.10",
+    "@storybook/test": "^8.1.10",
     "@testing-library/react": "^14.1.2",
     "@types/jest": "^29.5.11",
     "@types/react": "^18.2.45",
@@ -68,6 +79,7 @@
     "react-error-boundary": "^4.0.12",
     "react-markdown": "^8.0.7",
     "remark-gfm": "^3.0.1",
+    "storybook": "^8.1.10",
     "ts-jest": "^29.1.1",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"

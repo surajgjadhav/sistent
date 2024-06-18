@@ -30,3 +30,4 @@ pub.sh
 .eslintcache
 
 .DS_Store
+*storybook.log
