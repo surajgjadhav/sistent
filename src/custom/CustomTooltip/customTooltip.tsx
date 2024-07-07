@@ -3,7 +3,7 @@ import React from 'react';
 import { CHARCOAL, WHITE } from '../../theme';
 import { RenderMarkdownTooltip } from '../Markdown';
 
-type CustomTooltipProps = {
+export type CustomTooltipProps = {
   title: string | React.ReactNode | JSX.Element;
   onClick?: (event: React.MouseEvent<HTMLElement>) => void;
   children: React.ReactNode;
